@@ -1,19 +1,11 @@
-<<<<<<< HEAD
 import os
-=======
->>>>>>> 86a57543c38326a91f611beb8a13465d39f1cb5b
 import random
 from flask import Flask, render_template, request
 from pymessenger.bot import Bot
 
 app = Flask(__name__)
-<<<<<<< HEAD
 ACCESS_TOKEN = os.environ['ACCESS_TOKEN']
 VERIFY_TOKEN = os.environ['VERIFY_TOKEN']
-=======
-ACCESS_TOKEN = "EAAEKDVURsx4BABorA6QazWcsUD2OnHRJsb32eHgUtMMZAr6xUNKwJsGIBIz1rUsCWRA3z24uysmLMyU2ZAF91nanLZBo9ckZCBXzUHHcHQ9ypsGxLDKaB0hK6kyTpl7ZBExj5NvWfNr9uoZCnf99yynkMcDzpq7ADFPiMtO1hmzQZDZD"
-VERIFY_TOKEN = 'macca_is_gross'
->>>>>>> 86a57543c38326a91f611beb8a13465d39f1cb5b
 bot = Bot(ACCESS_TOKEN)
 app.debug = True
 
