@@ -39,7 +39,7 @@ def verify_fb_token(token_sent):
     return 'Invalid verification token'
 
 def get_message():
-    response_messages = ["test", "working", "Salisbury"]
+    response_messages = ["Macca smells", "Noel is the man", "Long live Charles V. Salisbury!"]
     return random.choice(response_messages)
 
 def send_message(recipient_id, response):
